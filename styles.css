@@ -100,8 +100,9 @@ main > :first-child { margin-top: 0; }
 .signup p { margin-top: 12px; color: var(--bone); }
 .signup form { display: grid; gap: 6px; }
 .signup label { font: 600 12.5px var(--sans); letter-spacing: .14em; text-transform: uppercase; margin-top: 8px; }
-.signup label span { font-weight: 400; text-transform: none; letter-spacing: 0; color: var(--mist); }
-.signup input { font: inherit; padding: 12px 14px; border-radius: 3px; border: 2px solid var(--cream); background: var(--moss); color: var(--cream); }
+.signup .names { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 14px; }
+.signup .names > div { display: grid; gap: 6px; }
+.signup input { width: 100%; min-width: 0; font: inherit; padding: 12px 14px; border-radius: 3px; border: 2px solid var(--cream); background: var(--moss); color: var(--cream); }
 .signup .btn { justify-self: start; margin-top: 14px; }
 
 footer { margin-top: 96px; }
@@ -143,5 +144,6 @@ footer small { display: block; margin-top: 16px; color: var(--mist); font-size: 
   .clinch { max-width: 260px; }
   .signup { margin-top: 64px; }
   .signup .wrap { gap: 24px; }
+  .signup .names { grid-template-columns: 1fr; gap: 6px; }
   footer .contact-links { text-align: left; }
 }

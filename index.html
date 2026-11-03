@@ -50,7 +50,7 @@
           <p>Follow <a href="https://www.instagram.com/tieoneonrecovery/">@tieoneonrecovery</a> on Instagram for the first date.</p>
         </div>
         <ul class="leaders">
-          <li><b>When</b><i></i><span>First date coming soon</span></li><li><b>Where</b><i></i><span>TBD</span></li><li><b>Cost</b><i></i><span>Free</span></li>
+          <li><b>When</b><i></i><span>First date coming soon</span></li><li><b>Where</b><i></i><span>TBD</span></li><li><b>Cost</b><i></i><span>Free</span></li><li><b>RSVP</b><i></i><span><a href="mailto:michael@tieoneonrecovery.org">Email</a> or <a href="https://www.instagram.com/tieoneonrecovery/">Instagram</a></span></li>
         </ul>
       </div>
     </div>
@@ -73,14 +73,18 @@
     <div>
       <h2 id="su-title">Get announcements</h2>
       <p>Tying night dates, trips and family nights, by email. Announcements only, a couple of emails a
-      month at most. We never share your address, and you can unsubscribe anytime.</p>
+      month at most. We never share your name or email, and you can unsubscribe anytime.</p>
     </div>
-    <form action="#" method="post">
-      <label for="su-name">First name <span>(optional)</span></label>
-      <input id="su-name" name="fields[first_name]" autocomplete="given-name">
+    <form action="https://app.kit.com/forms/10139720/subscriptions" method="post">
+      <div class="names">
+        <div><label for="su-first">First name</label>
+        <input id="su-first" name="fields[first_name]" autocomplete="given-name" required></div>
+        <div><label for="su-last">Last name</label>
+        <input id="su-last" name="fields[last_name]" autocomplete="family-name" required></div>
+      </div>
       <label for="su-email">Email</label>
       <input id="su-email" name="email_address" type="email" autocomplete="email" required>
-      <button class="btn" type="button" disabled>Opening soon</button>
+      <button class="btn" type="submit">Subscribe</button>
     </form>
   </div>
 </section>
