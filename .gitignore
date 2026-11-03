@@ -1,0 +1,16 @@
+# Site files only. Paperwork, logos, brand sources and generators live outside this folder
+# and must never be committed here.
+.DS_Store
+*.pdf
+*.py
+*.txt.bak
+paperwork/
+logos/
+vector/
+social/
+stickers/
+with-tm/
+web-icons/
+demo-site/
+website-styles/
+_pv*
