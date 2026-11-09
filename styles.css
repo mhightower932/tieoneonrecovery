@@ -93,6 +93,7 @@ main > :first-child { margin-top: 0; }
 .portrait img { display: block; width: 100%; height: auto; border-radius: 3px; }
 .draft { border: 1px dashed var(--sage); border-radius: 4px; padding: 22px 24px; color: var(--sage); }
 .note { margin-top: 22px; font-size: 14px; color: var(--sage); }
+.prose { max-width: 40em; }
 
 /* newsletter signup band */
 .signup { margin-top: 88px; }
